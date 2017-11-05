@@ -1,41 +1,24 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class CheckPoint : MonoBehaviour 
-{
-	private BossController bossController;
-	private CharacterMovement characterMovement;
-	private Animator anim;
-	private SmoothFollow smoothFollow;
+public class CheckPoint1 : MonoBehaviour {
 
-
-	void Awake () 
-	{
-		bossController = GameObject.FindGameObjectWithTag("Boss").GetComponent<BossController>();
-		characterMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement>();
-		smoothFollow = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<SmoothFollow>();
-		anim = GameObject.FindGameObjectWithTag ("Player").GetComponentInChildren<Animator> ();
+	// Use this for initialization
+	public LevelManager levelManager;
+	void Start () {
+		levelManager = FindObjectOfType<LevelManager>();
 	}
 	
-
-	void Update () 
-	{
+	// Update is called once per frame
+	void Update () {
 		
 	}
-	
-	void OnTriggerExit(Collider other)
-	{
-		if(other.tag == "Player")
-		{
-			
-			bossController.bossAwake = true;
-			
-			GetComponent<Collider>().isTrigger = false;
-			anim.SetFloat ("speed", 0.0f);
-			
 
-			characterMovement.enabled = false;
-			smoothFollow.bossCameraActive = true;
+
+	void OnTriggerEnter2D (Collider2D other) {
+		if (other.name == "Player") {
+			levelManager.activeCheckpoint = gameObject;
 		}
-	}
+}
 }
