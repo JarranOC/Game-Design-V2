@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: a1d82d9fcc676394db12967cbc3776e6
+timeCreated: 1508105227
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TextureAtlas_01_0
+    21300002: Foreground_vine
+    21300004: TextureAtlas_01_2
+    21300006: Midground_Main
+    21300008: Midground_vine
+    21300010: midground_Tree
+    21300012: Midground_Cliff
+    21300014: Background_cliff
+    21300016: Cloud_01
+    21300018: Cloud_02
+    21300020: Cloud_03
+    21300022: Midground_vine_f
+    21300024: Cloud_04
+    21300026: TextureAtlas_01_13
+    21300028: TextureAtlas_01_14
+    21300030: TextureAtlas_01_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TextureAtlas_01_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 544
+        width: 4
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Foreground_vine
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 3258
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TextureAtlas_01_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 544
+        width: 4
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Midground_Main
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2311
+        width: 4037
+        height: 1785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Midground_vine
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1809
+        width: 729
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: midground_Tree
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1562
+        width: 1196
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Midground_Cliff
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1447
+        width: 1016
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Background_cliff
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 697
+        width: 1892
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloud_01
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1325
+        width: 979
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloud_02
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1331
+        width: 582
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloud_03
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 1346
+        width: 1432
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Midground_vine_f
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 1778
+        width: 1039
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloud_04
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 770
+        width: 1980
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TextureAtlas_01_13
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 554
+        width: 142
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TextureAtlas_01_14
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 314
+        width: 159
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TextureAtlas_01_15
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 52
+        width: 136
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
