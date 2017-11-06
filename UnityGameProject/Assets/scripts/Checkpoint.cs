@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CheckPoint : MonoBehaviour 
+public class Checkpoint : MonoBehaviour 
 {
 	private BossController bossController;
 	private CharacterMovement characterMovement;

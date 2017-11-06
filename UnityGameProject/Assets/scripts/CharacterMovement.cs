@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class CharacterMovement : MonoBehaviour 
 {
@@ -96,4 +97,5 @@ public class CharacterMovement : MonoBehaviour
 	}
 
 	}
+	
 
